@@ -114,12 +114,24 @@
  @media only screen and (max-width: 600px) {
   .name h2, .name h1{
     font-size: 30px;
-    width: 290px;
-    left: -48px;
+    width: 194px;
+ 
     position: absolute;
   }
-  h1{
-    top:30px;
-  } 
+  img{max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: -53px;
+    width: 153px;
+    top: 211px;}
+    h1 {
+      left: -80px;
+    top: 97px;
+    font-size: 47px;
+    }
+    h2{
+      left: -85px;
+    }
+
  }
  
