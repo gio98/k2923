@@ -112,26 +112,33 @@
  }
  
  @media only screen and (max-width: 600px) {
-  .name h2, .name h1{
-    font-size: 30px;
-    width: 194px;
- 
+  .name {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+  
+  img{
+    position: absolute;
+    left: 6px;
+    width: 362px;
+    top: 211px;
   }
-  img{max-width: 100%;
-    height: auto;
-    position: absolute;
-    left: -53px;
-    width: 153px;
-    top: 211px;}
-    h1 {
-      left: -80px;
-    top: 97px;
-    font-size: 47px;
-    }
-    h2{
-      left: -85px;
-    }
+  h1 {
+    left: -8px;
+    top: 325px!important;
+    font-size: 68px !important;
+    position: relative;
+}
+h2 {
+  left: 0px;
+  position: relative;
+  font-size: 54px !important;
+}
 
  }
- 
