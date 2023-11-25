@@ -114,5 +114,9 @@
  @media only screen and (max-width: 600px) {
   .name h2, .name h1{
     font-size: 30px;
+    width: 290px;
+    left: -48px;
+    position: absolute;
   }
  }
+ 
