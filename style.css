@@ -140,5 +140,9 @@ h2 {
   position: relative;
   font-size: 54px !important;
 }
-
+#text{
+  position: relative;
+  top:400px;
+}
+   
  }
